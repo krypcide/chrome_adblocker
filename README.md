@@ -1,4 +1,4 @@
-# dyi-adblocker
+# chrome-adblocker
 An ad blocking chrome extension that blocks content based on domain names
 
 # Installation
@@ -28,3 +28,5 @@ An ad blocking chrome extension that blocks content based on domain names
 
 # Credits
 The blacklist is from [github.com/StevenBlack/hosts](https://github.com/StevenBlack/hosts)
+
+Repo forked from AdrS/dyi-adblocker. I added a better UI and more domains to blacklist
