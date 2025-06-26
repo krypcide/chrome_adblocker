@@ -24,12 +24,24 @@
             max-width: 600px; /* Maximum width for larger screens */
             margin: 20px; /* Add margin for spacing */
         }
+	.button {
+            font-size: 1.1em;
+            display: block;
+            margin: 10px auto; /* Center the links */
+            padding: 12px 24px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+            width: fit-content; /* Make the button fit its content */
+        }
 	</style>
 </head>
 <body>
 <div class="container">
 <h3>dyi-adblock</h3>
-<input type="button" id="toggle_button" value="Disable" />
+<input type="button" class=button id="toggle_button" value="Disable" />
 </div>
 
 </body>
