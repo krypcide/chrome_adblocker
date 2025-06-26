@@ -3,12 +3,34 @@
 <html>
 <head>
 	<script src="popup.js"></script>
+	<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center; /* Default text alignment for smaller screens */
+        }
+	.container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 80%; /* Adjust width for smaller screens */
+            max-width: 600px; /* Maximum width for larger screens */
+            margin: 20px; /* Add margin for spacing */
+        }
+	</style>
 </head>
 <body>
-
+<div class="container">
 <h3>dyi-adblock</h3>
 <input type="button" id="toggle_button" value="Disable" />
-<hr>
-Written by Adrian Stoll
+</div>
+
 </body>
 </html>
